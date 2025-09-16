@@ -1,0 +1,123 @@
+/* ===========================
+    1. Reset / Normalize
+    =========================== */
+
+
+/* ===========================
+    2. Base Styles (Typography, Body, etc.)
+    =========================== */
+body {
+    margin: 0;
+    background-color: #FFFFFF; /* Light gray for the main site */
+    color: hsl(0, 0%, 20%);
+    font-family: "League Spartan", sans-serif; /* Use your existing font */
+}
+html {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+    font-size: 16px; 
+}
+/* ===========================
+    2.1. Content
+    =========================== */
+/* Header */
+header {
+    border-bottom: 1px solid #e0e0e0; /* Subtle border for separation */
+    font-size: 20px;
+    font-family: "Afacad Flux", system-ui; /* Use your existing font */
+    font-weight: 550;
+    margin : 18px auto;
+}
+/* Hero Section */
+.hero {
+    text-align: center;
+}
+/* About */
+.about-page {
+    font-family: Afacad Flux, system-ui; /* Use your existing font */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-page img {
+    width: 6.25rem; /* Adjust the logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 15px; /* Add margin for spacing */
+}
+.about-page h1 {
+    font-size: 50px; /* Adjust the size of the main heading */
+    margin: 10px 0; /* Add margin for spacing */
+    color: #4a2c78; /* Use your existing color */
+}
+.about-content {
+    max-width: 80%;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.about i {
+    font-size: 10rem; /* Adjust icon size */
+    color: #4a2c78; /* Use your existing color */
+    margin-right: 10px; /* Add space between icon and text */
+}
+/* ===========================
+    3. Layout (Containers, Grid, Flex)
+    =========================== */
+.header-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 5px 10px 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ===========================
+    4. Components (Buttons, Cards, Forms, etc.)
+    =========================== */
+header img {
+    width: 120px; /* Adjust the logo size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.hero h1 {
+    font-size: 60px; /* Adjust the size of the main heading */
+    margin: 0; /* Remove default margin */
+    padding: 20px 0; /* Add padding for spacing */
+    font-family: "Afacad Flux", system-ui; /* Use your existing font */
+    font-weight: 450;
+    color: #4a2c78;
+}
+
+.hero p {
+    font-size: 20px; /* Adjust the size of the paragraph */
+    margin: 0; /* Remove default margin */
+    padding: 10px 0; /* Add padding for spacing */
+    color: #4a2c78;
+}
+.hero a {
+    text-decoration: none;
+    color: #4a2c78; /* Link color */
+    font-weight: bold; /* Make links bold */
+    font-size: 20px;
+}
+/* ===========================
+    5. Utilities (Helpers, Utility Classes)
+    =========================== */
+.nav-links ul {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Use flexbox for horizontal layout */
+    gap: 20px; /* Add spacing between links */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #4a2c78;
+}
+/* ===========================
+    6. Media Queries (Responsive Design)
+    =========================== */
