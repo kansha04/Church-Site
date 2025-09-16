@@ -1,7 +1,9 @@
 /* ===========================
     1. Reset / Normalize
     =========================== */
-
+html {
+    margin: 0;
+}
 
 /* ===========================
     2. Base Styles (Typography, Body, etc.)
@@ -112,6 +114,7 @@ header img {
     gap: 20px; /* Add spacing between links */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    font-size: 1.5rem;
 }
 
 .nav-links a {
